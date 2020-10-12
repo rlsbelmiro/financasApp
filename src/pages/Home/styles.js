@@ -19,17 +19,34 @@ export const Saldo = styled.Text`
 `;
 export const Title = styled.Text`
     color: #00b94a;
-    margin-left: 15px;
-    margin-top: 30px;
     font-style: italic;
     font-size: 16px;
+    margin-left: 6;
 `;
 
-export const List = styled.FlatList`
+export const AreaList = styled.View`
     margin-top: 15;
     padding-top: 10;
     flex: 1;
     background-color: #fff;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+`;
+export const List = styled.FlatList`
+
+`;
+
+export const Area = styled.View`
+    margin-left: 15px;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+`;
+
+export const InfoText = styled.Text`
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15;
+    color: rgba(0,0,0,0.3);
 `;

@@ -47,3 +47,11 @@ export const Opcao = styled.TouchableOpacity`
 export const OpcaoText = styled.Text`
     color: ${props => !props.selecionado ? '#fff' : props.tipo === 'receita' ? '#00b94a' : '#C62c36'};
 `;
+
+export const AlertText = styled.Text`
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 40px;
+    font-style: italic;
+`;

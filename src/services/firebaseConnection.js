@@ -3,14 +3,14 @@ import 'firebase/auth';
 import 'firebase/database';
 
 let firebaseConfig = {
-    apiKey: "AIzaSyAvDjv4FHw-mMms8aK-3t_VrGM-QFA74uM",
-    authDomain: "cursorn-1583e.firebaseapp.com",
-    databaseURL: "https://cursorn-1583e.firebaseio.com",
-    projectId: "cursorn-1583e",
-    storageBucket: "cursorn-1583e.appspot.com",
-    messagingSenderId: "776047999076",
-    appId: "1:776047999076:web:16dc7dcea126b20ba00771",
-    measurementId: "G-NW0ESLXMBJ"
+    apiKey: "AIzaSyBaEBpZM-eCHegZn7A9CXnDt6fIXmpvqXc",
+    authDomain: "financasapp-faf21.firebaseapp.com",
+    databaseURL: "https://financasapp-faf21.firebaseio.com",
+    projectId: "financasapp-faf21",
+    storageBucket: "financasapp-faf21.appspot.com",
+    messagingSenderId: "335599006374",
+    appId: "1:335599006374:web:6d0cce959ee8256117ba67",
+    measurementId: "G-QTN7905046"
 };
 
 if (!firebase.apps.length) {
